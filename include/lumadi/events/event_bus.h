@@ -26,7 +26,7 @@ namespace Lumadi::Events {
         }
 
         template<typename T>
-        void Public(const T &event) {
+        void Publish(const T &event) {
             const auto it = mSubscribers.find(typeid(T));
 
 

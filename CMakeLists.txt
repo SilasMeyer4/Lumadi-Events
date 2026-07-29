@@ -3,9 +3,7 @@ project(Lumadi_Events)
 
 include(CTest)
 
-add_library(Lumadi_Events INTERFACE
-        tests/signal_tests.cpp
-)
+add_library(Lumadi_Events INTERFACE)
 
 target_compile_features(Lumadi_Events INTERFACE cxx_std_17)
 
