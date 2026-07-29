@@ -4,6 +4,7 @@
 
 #include "catch2/catch_test_macros.hpp"
 #include "lumadi/events/event_bus.h"
+#include <memory>
 #include <string>
 #include <vector>
 
